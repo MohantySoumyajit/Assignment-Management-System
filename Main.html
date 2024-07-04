@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assignment Management System</h1>
+        <form id="assignment-form">
+            <input type="text" id="name" placeholder="Student Name" required>
+            <input type="text" id="roll-number" placeholder="Roll Number" required>
+            <input type="text" id="title" placeholder="Assignment Title" required>
+            <input type="date" id="due-date" required>
+            <input type="date" id="submission-date" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <button type="submit">Add Assignment</button>
+        </form>
+        <div id="assignments"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
